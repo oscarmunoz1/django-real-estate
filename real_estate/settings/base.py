@@ -126,6 +126,8 @@ STATICFILES_DIR = []
 MEDIA_URL = "/mediafiles/"
 MEDIA_ROOT = BASE_DIR / "mediafiles"
 
+AUTH_USER_MODEL = "users.User"
+
 
 import logging
 import logging.config
